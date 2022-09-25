@@ -19,7 +19,7 @@ public class Scripts_Movement : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            gameObject.GetComponent<Rigidbody>().transform.Translate(0, 0, -0.25f);
+            gameObject.GetComponent<Rigidbody>().transform.Translate(0, 0, 0.25f);
         }
         if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
