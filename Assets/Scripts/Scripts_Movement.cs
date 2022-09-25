@@ -29,5 +29,12 @@ public class Scripts_Movement : MonoBehaviour
         {
             gameObject.GetComponent<Rigidbody>().transform.Translate(0.25f, 0, 0);
         }
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            gameObject.GetComponent<GameObject>().SetActive(false);
+        }
+
     }
+
 }
